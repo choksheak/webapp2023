@@ -10,7 +10,7 @@
     "fix": "eslint . --ext ts,tsx --fix",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "preview": "vite preview",
-    "prod": "vite preview",
+    "prod": "yarn build && yarn preview",
     "test": "vitest --watch=false",
     "test:watch": "vitest",
     "coverage": "vitest --coverage --watch=false",
